@@ -1,0 +1,36 @@
+th, td {
+    text-align: left;
+    padding: 10px;
+    }
+
+td:not(.head) {
+    border-radius: 5px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse
+}
+
+.invis {
+    empty-cells: hide;
+}
+
+.head {
+    font-weight: bold;
+    background-color: rgb(41,41,41);
+}
+
+.hover:not(.highlight):not(.head):not(.invis) {
+    background-color: rgb(51,51,51);
+}
+.highlight {
+    background-color: cyan;
+}
+body {
+    background-color: rgb(24,24,24);
+    font-family: sans-serif;
+    color: rgb(80,80,80);
+    white-space: nowrap;
+}

@@ -1,0 +1,623 @@
+{
+	"type": "individual",
+	"weapon": "epee",
+	"date": "date",
+	"name": "pool1",
+	"pool_size": 4,
+	"fencers": {
+		"jeff": {
+			"victories": 2,
+			"hits_given": 12,
+			"hits_received": 17,
+			"indicator": -5
+		},
+		"john": {
+			"victories": 2,
+			"hits_given": 12,
+			"hits_received": 17,
+			"indicator": -5
+		},
+		"mark": {
+			"victories": 2,
+			"hits_given": 12,
+			"hits_received": 17,
+			"indicator": -5
+		},
+		"brian": {
+			"victories": 2,
+			"hits_given": 12,
+			"hits_received": 17,
+			"indicator": -5
+		}
+	},
+	"bouts": {
+		"jeff-john": [
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "middle",
+				"time_left": "2:42",
+				"jeff": {
+					"type": "fleche",
+					"target": "chest"
+				},
+				"john": {
+					"type": "counterattack",
+					"target": "chest"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:31",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			}
+		],
+		"jeff-mark": [
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "middle",
+				"time_left": "2:42",
+				"jeff": {
+					"type": "fleche",
+					"target": "chest"
+				},
+				"john": {
+					"type": "counterattack",
+					"target": "chest"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:31",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			}
+		],
+		"jeff-brian": [
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "middle",
+				"time_left": "2:42",
+				"jeff": {
+					"type": "fleche",
+					"target": "chest"
+				},
+				"john": {
+					"type": "counterattack",
+					"target": "chest"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:31",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			}
+		],
+		"john-mark": [
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "middle",
+				"time_left": "2:42",
+				"mark": {
+					"type": "fleche",
+					"target": "chest"
+				},
+				"john": {
+					"type": "counterattack",
+					"target": "chest"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:31",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"mark": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			}
+		],
+		"john-brian": [
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "middle",
+				"time_left": "2:42",
+				"jeff": {
+					"type": "fleche",
+					"target": "chest"
+				},
+				"john": {
+					"type": "counterattack",
+					"target": "chest"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:31",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			}
+		],
+		"mark-brian": [
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "middle",
+				"time_left": "2:42",
+				"jeff": {
+					"type": "fleche",
+					"target": "chest"
+				},
+				"john": {
+					"type": "counterattack",
+					"target": "chest"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:31",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			},
+			{
+				"location": "john_side",
+				"time_left": "2:48",
+				"jeff": {
+					"type": "parry_riposte",
+					"target": "upper_arm"
+				},
+				"john": {
+					"type": "no_hit",
+					"target": "N/A"
+				}
+			}
+		]
+	}
+}
