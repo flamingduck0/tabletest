@@ -6,7 +6,10 @@
         <meta name="color-scheme" content="only light">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- loads variable as a global to feed into associated script -->
-        <script> var data = {{ data|tojson }}</script>
+        <script>
+            var data = {{ data|tojson }}
+            var fencers = {{fencers|safe}}
+        </script>
         <!-- generate the table (hopefully) -->
         <script src="{{ url_for('static', filename='populate.js') }}" defer></script>
         <!-- runs code making the table responsive -->
@@ -16,6 +19,7 @@
 
     <body>
         <table id="table">
+            <!--
             <tr>
                 <th class="invis"></th>
                 <th class="head">Col 1</th>
@@ -79,7 +83,7 @@
                 <td>E6</td>
                 <td class="invis"></td>
             </tr>
+            -->
         </table>
     </body>
-
 </html>

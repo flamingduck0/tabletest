@@ -1,18 +1,18 @@
 var rIndex, cIndex, savedRow, savedCol;
 table = document.getElementById("table");
 
+
 function clickedCell() {
     for(let i = 0; i < table.rows.length; i++) {
         for(let j = 0; j < table.rows[i].cells.length; j++) {
-            //selecting cell
-            table.rows[i].cells[j].onclick = function() {
-                //on click also updates values for cIndex and rIndex
+
+            //hovering pair indicator
+            table.rows[i].cells[j].onmouseover = function () {
+
+                //update values for cIndex and rIndex
                 cIndex = this.cellIndex;
                 rIndex = this.parentElement.rowIndex;
-            };
 
-            //hovering cell pair indicator
-            table.rows[i].cells[j].onmouseover = function () {
                 //hover indicating done in js instead of css to do dual hovering
                 //Remove all old hover indicator from the previous cell
                 for (let highlights = 0; highlights <= document.querySelectorAll('.hover')?.length; highlights ++) {
@@ -23,7 +23,7 @@ function clickedCell() {
                 //adds hover effect
                 this.classList.add('hover');
                 try {
-                    table.rows[this.cellIndex].cells[this.parentElement.rowIndex].classList.add('hover');
+                    table.rows[cIndex].cells[rIndex].classList.add('hover');
                 } catch (error) {
                     console.error(error)
                 }
