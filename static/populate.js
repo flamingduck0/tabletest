@@ -1,6 +1,7 @@
 table = document.getElementById("table");
 
 console.log(fencers)
+console.log(tableList)
 
 //make the heading row
 let headRow = document.createElement("tr");
@@ -34,6 +35,7 @@ for(let i = 0; i < fencers.length; i++) {
             value.classList.add("invis")
             //insert clever function here
         }
+        value.innerText = tableList[i][j]
         row.append(value)
     }
     table.append(row)

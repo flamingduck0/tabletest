@@ -37,7 +37,7 @@
 						"target": "upper_arm"
 					},
 					"john": {
-						"type": "no_hit",
+						"type": "ass",
 						"target": "N/A"
 					}
 				},
@@ -46,6 +46,18 @@
 					"time_left": "2:42",
 					"jeff": {
 						"type": "fleche",
+						"target": "chest"
+					},
+					"john": {
+						"type": "counterattack",
+						"target": "chest"
+					}
+				},
+				{
+					"location": "middle",
+					"time_left": "2:42",
+					"jeff": {
+						"type": "no_hit",
 						"target": "chest"
 					},
 					"john": {
@@ -66,7 +78,7 @@
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
-					"john": {
+					"jrian": {
 						"type": "no_hit",
 						"target": "N/A"
 					}
@@ -78,7 +90,7 @@
 						"type": "fleche",
 						"target": "chest"
 					},
-					"john": {
+					"jrian": {
 						"type": "counterattack",
 						"target": "chest"
 					}
@@ -90,7 +102,7 @@
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
-					"john": {
+					"jrian": {
 						"type": "no_hit",
 						"target": "N/A"
 					}
@@ -102,7 +114,31 @@
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
-					"john": {
+					"jrian": {
+						"type": "no_hit",
+						"target": "N/A"
+					}
+				},
+				{
+					"location": "john_side",
+					"time_left": "2:48",
+					"jeff": {
+						"type": "no_hit",
+						"target": "upper_arm"
+					},
+					"jrian": {
+						"type": "parry_riposte",
+						"target": "N/A"
+					}
+				},
+				{
+					"location": "john_side",
+					"time_left": "2:48",
+					"jeff": {
+						"type": "parry_riposte",
+						"target": "upper_arm"
+					},
+					"jrian": {
 						"type": "no_hit",
 						"target": "N/A"
 					}
@@ -114,7 +150,7 @@
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
-					"john": {
+					"jrian": {
 						"type": "no_hit",
 						"target": "N/A"
 					}
@@ -126,31 +162,7 @@
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
-					"john": {
-						"type": "no_hit",
-						"target": "N/A"
-					}
-				},
-				{
-					"location": "john_side",
-					"time_left": "2:48",
-					"jeff": {
-						"type": "parry_riposte",
-						"target": "upper_arm"
-					},
-					"john": {
-						"type": "no_hit",
-						"target": "N/A"
-					}
-				},
-				{
-					"location": "john_side",
-					"time_left": "2:48",
-					"jeff": {
-						"type": "parry_riposte",
-						"target": "upper_arm"
-					},
-					"john": {
+					"jrian": {
 						"type": "no_hit",
 						"target": "N/A"
 					}
@@ -164,7 +176,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:48",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
@@ -176,7 +188,7 @@
 				{
 					"location": "middle",
 					"time_left": "2:42",
-					"jeff": {
+					"jrian": {
 						"type": "fleche",
 						"target": "chest"
 					},
@@ -188,7 +200,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:31",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
@@ -200,7 +212,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:48",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
@@ -212,7 +224,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:48",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
@@ -224,7 +236,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:48",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
@@ -236,7 +248,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:48",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
@@ -248,7 +260,7 @@
 				{
 					"location": "john_side",
 					"time_left": "2:48",
-					"jeff": {
+					"jrian": {
 						"type": "parry_riposte",
 						"target": "upper_arm"
 					},
