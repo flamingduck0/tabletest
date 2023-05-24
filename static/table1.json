@@ -22,6 +22,18 @@
 			"hits_given":12,
 			"hits_received": 17,
 			"indicator": -5
+		},
+		"bob":{
+			"victories":2,
+			"hits_given":12,
+			"hits_received": 17,
+			"indicator": -5
+		},
+		"mark":{
+			"victories":2,
+			"hits_given":12,
+			"hits_received": 17,
+			"indicator": -5
 		}
 	},
 	"bouts": [
@@ -61,6 +73,48 @@
 						"target": "chest"
 					},
 					"john": {
+						"type": "counterattack",
+						"target": "chest"
+					}
+				}
+			]
+		},
+		{
+			"fencer1": "jeff",
+			"fencer2": "bob",
+			"hits": [
+				{
+					"location": "john_side",
+					"time_left": "2:48",
+					"jeff": {
+						"type": "parry_riposte",
+						"target": "upper_arm"
+					},
+					"bob": {
+						"type": "ass",
+						"target": "N/A"
+					}
+				},
+				{
+					"location": "middle",
+					"time_left": "2:42",
+					"jeff": {
+						"type": "fleche",
+						"target": "chest"
+					},
+					"bob": {
+						"type": "counterattack",
+						"target": "chest"
+					}
+				},
+				{
+					"location": "middle",
+					"time_left": "2:42",
+					"jeff": {
+						"type": "no_hit",
+						"target": "chest"
+					},
+					"bob": {
 						"type": "counterattack",
 						"target": "chest"
 					}

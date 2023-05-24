@@ -1,14 +1,11 @@
 table = document.getElementById("table");
 
-console.log(fencers)
-console.log(tableList)
-
 //make the heading row
 let headRow = document.createElement("tr");
 
 //first invisible header element
 let empty = document.createElement("th");
-empty.classList.add('invis')
+empty.classList.add('head')
 
 headRow.append(empty)
 //make a heading element per user

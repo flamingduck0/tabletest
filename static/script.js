@@ -21,11 +21,13 @@ function clickedCell() {
                 }
 
                 //adds hover effect
-                this.classList.add('hover');
-                try {
-                    table.rows[cIndex].cells[rIndex].classList.add('hover');
-                } catch (error) {
-                    console.error(error)
+                if(!(this.classList.contains("head") || this.classList.contains("invis"))) {
+                    this.classList.add('hover');
+                    try {
+                        table.rows[cIndex].cells[rIndex].classList.add('hover');
+                    } catch (error) {
+                        console.error(error)
+                    }
                 }
             }
         }
@@ -38,12 +40,13 @@ table.onclick = function() {
 
         // Remove all highlight from the previous cell
         for (let highlights = 0; highlights <= document.querySelectorAll('.highlight')?.length; highlights ++) {
-            document.querySelector('.highlight')?.classList.remove('highlight');
+            document.querySelector('.highlight')?.classList.remove('highlight', 'selected');
             //thanks Comben!
         }
 
         // Add highlight to the clicked cell
         table.rows[rIndex].cells[cIndex].classList.add('highlight');
+        table.rows[rIndex].cells[cIndex].classList.add('selected');
         try {
             table.rows[cIndex].cells[rIndex].classList.add('highlight');
         } catch (error) {
@@ -55,5 +58,6 @@ table.onclick = function() {
         savedRow = rIndex;
 
         console.log(savedCol, savedRow);
+        console.log(fencers[savedRow-1]+" vs "+fencers[savedCol-1])
     }
 }
